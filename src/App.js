@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Carousel from "./Component/Carousel";
+import SlikSlider from "./Component/Slider";
+import CarouselSlid from "./Component/CarouselSlider";
+import Describtion from "./Component/Describtion";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex max-w-md mx-auto flex-col container sm:max-w-xl  md:max-w-3xl lg:max-w-4xl xl:max-w-6xl  2xl:max-w-20xl">
+    <SlikSlider/>
+    <CarouselSlid/>  
+    {/* <Carousel/> */}
+    <Describtion/>
     </div>
   );
 }
