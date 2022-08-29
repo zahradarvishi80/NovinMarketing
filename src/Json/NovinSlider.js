@@ -12,7 +12,7 @@ const NovinSlider = [
     id: 1,
     title:"طراحی اپلیکیشن",
     desc:"مرکز تخصصی و برنامه نویسی وب سایت و اپلیکیشن موبایل ",
-    img:"#00FFD8",
+    bg:"grey",
    
     img1:saye,
     image:mbl
@@ -21,7 +21,7 @@ const NovinSlider = [
     id: 2,
     title: "کریستین رونالدو  ",
     desc:" .ورزش میتونه عمر تو طولانی کنه .پس در این تیم ثبت نام کن",
-    img:"#00FFD8",
+    bg:"#00FFD8",
     hover: "bg-orange-500",
     img1:saye,
     image:crs
@@ -29,8 +29,8 @@ const NovinSlider = [
   {   
      id: 3,
     title: "زمین پاک",
-    desc:"آسمان آبی زمین پاک حق حق همه ی ما بچه هاست",
-    img:"#00FFD8",
+    desc:"آسمان آبی زمین پاک حق   پاک حق  همه ی ما بچه همه ی ما بچه هاست",
+    bg:"#00FFD8",
     img1:saye,
 
     image:wrth

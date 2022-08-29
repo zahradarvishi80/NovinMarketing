@@ -4,7 +4,7 @@ import Img1 from "../img/Images2.png";
 import Img2 from "../img/Images1.png";
 import View from "../img/View.png";
 import Calendar from "../img/Calendar.png";
-const MovieItems = [
+const CaroselSlider = [
   {
     id:1,
     img: Tevesion,
@@ -17,7 +17,7 @@ const MovieItems = [
     View: View,
     Calendar: Calendar,
     view: 320,
-    date: "4 /آبان /1400",
+    date: "4 آبان 1400",
   
   },
   {
@@ -83,4 +83,4 @@ const MovieItems = [
   },
 ];
 
-export default MovieItems;
+export default CaroselSlider;
