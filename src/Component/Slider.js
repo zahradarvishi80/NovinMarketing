@@ -8,10 +8,6 @@ const SlikSlider=()=>{
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        // autoplay: true,
-        // speed: 2000,
-        // autoplaySpeed: 5000,
-        // cssEase: "linear",
         nextArrow: <SampleNextArrow />,
         prevArrow: <SamplePrevArrow />,
       };
@@ -37,9 +33,7 @@ const SlikSlider=()=>{
                 <p className="text-[16px] mt-1 lg:text-xl"
                 style={{
                     fontFamily:"sans-serif",
-                //     fontSize:20,
-                //     marginLeft:25,
-                //     marginTop:5
+             
                 }}
                 >خدمات</p>
                

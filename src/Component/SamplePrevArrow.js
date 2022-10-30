@@ -1,6 +1,5 @@
 import React from "react";
 import { IoIosArrowBack } from "react-icons/io";
-// import "../Css/SamplePrevArrow.css";
 function SamplePrevArrow(props) {
   const {onClick } = props;
   return (
